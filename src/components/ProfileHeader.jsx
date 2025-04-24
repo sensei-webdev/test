@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Github, Instagram } from "lucide-react";
+import { Mail, Github, Instagram, CodeXml } from "lucide-react";
 
 const ProfileHeader = () => {
   return (
@@ -12,8 +12,9 @@ const ProfileHeader = () => {
         />
       </div>
       <div className="flex flex-col gap-3">
-        <h1 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-teal-400 to-purple-500 bg-clip-text text-transparent mb-2">
-          I'm <span>Abu Bakar</span>
+        <h1 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-teal-400 to-purple-500 bg-clip-text text-transparent mb-2 inline-flex items-center gap-5">
+          Abu Bakar
+          <CodeXml className="w-8 h-8 text-teal-400 animate-pulse" />
         </h1>
         <h2 className="text-3xl text-gray-300">
           Frontend Developer & UI Specialist
