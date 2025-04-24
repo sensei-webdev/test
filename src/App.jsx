@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import ProfileHeader from "./components/ProfileHeader";
 
 const App = () => {
   return (
-    <div className='flex flex-col mt-[10rem] items-center justify-center'>
-      <h1 className='text-[4rem] font-bold'>This site is under progress</h1>
-    </div>
-  )
-}
+    <main className="flex flex-col mt-[2rem] gap-5 bg-slate-900 text-white">
+      <ProfileHeader />
+    </main>
+  );
+};
 
-export default App
+export default App;
