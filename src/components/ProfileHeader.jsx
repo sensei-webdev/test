@@ -28,13 +28,13 @@ const ProfileHeader = () => {
             View Projects
           </a>
           <span className="flex items-centers gap-4">
-            <a href="#" >
+            <a href="https://github.com/sensei-ux" >
               <Github  className="w-8 h-8"/>
             </a>
             <a href="#">
               <Instagram  className="w-8 h-8"/>
             </a>
-            <a href="#">
+            <a href="mailto:contact.sensei.ux@gmail.com">
               <Mail  className="w-8 h-8"/>
             </a>
           </span>
