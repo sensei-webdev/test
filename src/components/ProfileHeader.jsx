@@ -9,10 +9,10 @@ const ProfileHeader = () => {
         initial={{ opacity: 0, x: -60 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
-        className="h-72 w-48 mx-auto border-y-4 border-teal-400 rounded-xl overflow-hidden"
+        className="h-72 w-48 mx-auto border-b-4 border-teal-400 rounded-xl overflow-hidden"
       >
         <img
-          src="https://github.com/AbuBakar5173/imagesDataBase/blob/main/sir-sensei-2.png?raw=true"
+          src="https://res.cloudinary.com/dttah6xlw/image/upload/v1745666140/sir-sensei-2_regwza.png"
           alt="sir-sensei"
           className="object-cover h-full w-full"
         />
