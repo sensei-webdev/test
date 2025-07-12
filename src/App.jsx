@@ -5,7 +5,7 @@ import FeatureCards from './components/FeatureCards'
 
 const App = () => {
   return (
-    <main className="flex flex-col mt-[2rem] gap-5 bg-slate-900 text-white">
+    <main className="flex flex-col mt-[2rem] gap-12 bg-slate-900 text-white">
       <ProfileHeader />
       <SkillsSection />
       <FeatureCards />

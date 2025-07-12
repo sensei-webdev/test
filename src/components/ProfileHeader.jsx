@@ -40,7 +40,7 @@ const ProfileHeader = () => {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
-            href="#"
+            href="#FeatureCards"
             className="text-xl px-6 py-4 bg-teal-500 rounded-xl"
           >
             View Projects
@@ -50,11 +50,11 @@ const ProfileHeader = () => {
             {[
               {
                 icon: <Github className="w-8 h-8" />,
-                link: "https://github.com/sensei-ux",
+                link: "https://github.com/sensei-webdev",
               },
               {
                 icon: <Instagram className="w-8 h-8" />,
-                link: "https://www.instagram.com/sensei.ux?igsh=MXgxODJmbXkyMTVqaA==",
+                link: "https://www.instagram.com/sensei.webdev?igsh=MXgxODJmbXkyMTVqaA==",
               },
               {
                 icon: <Mail className="w-8 h-8" />,
