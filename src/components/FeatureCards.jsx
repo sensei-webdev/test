@@ -4,13 +4,13 @@ import { FolderIcon } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Responsive Educational Website',
+    title: 'Modern Educational Website',
     description: 'Built using Tailwind CSS. Fully responsive and mobile friendly.',
     image: 'https://res.cloudinary.com/dttah6xlw/image/upload/v1745667377/cttc-home_wkyn8f.png',
     link: 'https://cttc.imabubakar.xyz/',
   },
   {
-    title: 'Modern School Landing Page',
+    title: 'Tradational Landing Page',
     description: 'Built with HTML, CSS & JavaScript only. Responsive design for all devices.',
     image: 'https://res.cloudinary.com/dttah6xlw/image/upload/v1752300073/Screenshot_2025-07-12_113042_btvxdh.png',
     link: 'https://gtg.imabubakar.xyz/',
@@ -47,7 +47,7 @@ const ProjectCard = ({ title, description, image, link, delay }) => (
 
 const FeatureCards = () => {
   return (
-    <main>
+    <main id='Projects'>
       <motion.h1
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -55,7 +55,7 @@ const FeatureCards = () => {
         viewport={{ once: true }}
         className="flex items-center gap-3 text-3xl font-semibold mb-4 text-white"
       >
-        <FolderIcon className='text-orange-500 w-10 h-10' />
+        <FolderIcon className='text-yellow-500 w-10 h-10' />
         Featured Projects
       </motion.h1>
 

@@ -40,7 +40,7 @@ const ProfileHeader = () => {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
-            href="#FeatureCards"
+            href="#Projects"
             className="text-xl px-6 py-4 bg-teal-500 rounded-xl"
           >
             View Projects
@@ -54,7 +54,7 @@ const ProfileHeader = () => {
               },
               {
                 icon: <Instagram className="w-8 h-8" />,
-                link: "https://www.instagram.com/sensei.webdev?igsh=MXgxODJmbXkyMTVqaA==",
+                link: "https://www.instagram.com/abu_bakar_hasan?igsh=eTZrZ2VkbG83ajIx",
               },
               {
                 icon: <Mail className="w-8 h-8" />,
