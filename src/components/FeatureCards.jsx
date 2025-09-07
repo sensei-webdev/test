@@ -59,7 +59,7 @@ const FeatureCards = () => {
         Featured Projects
       </motion.h1>
 
-      <section className="flex flex-wrap gap-6">
+      <section className="flex flex-wrap gap-6 justify-center">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} delay={index * 0.1} />
         ))}
