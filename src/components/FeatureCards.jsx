@@ -1,20 +1,24 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { FolderIcon } from 'lucide-react';
+import React from "react";
+import { motion } from "framer-motion";
+import { FolderIcon } from "lucide-react";
 
 const projects = [
   {
-    title: 'Modern Educational Website',
-    description: 'Built using Tailwind CSS. Fully responsive and mobile friendly.',
-    image: 'https://res.cloudinary.com/dttah6xlw/image/upload/v1745667377/cttc-home_wkyn8f.png',
-    link: 'https://cttc.imabubakar.xyz/',
+    title: "Modern Educational Website",
+    description:
+      "Built using Tailwind CSS. Fully responsive and mobile friendly.",
+    image:
+      "https://res.cloudinary.com/dttah6xlw/image/upload/v1769306887/imgddd_svdp2p.png",
+    link: "https://abac.imabubakar.xyz/",
   },
   {
-    title: 'Tradational Landing Page',
-    description: 'Built with HTML, CSS & JavaScript only. Responsive design for all devices.',
-    image: 'https://res.cloudinary.com/dttah6xlw/image/upload/v1752300073/Screenshot_2025-07-12_113042_btvxdh.png',
-    link: 'https://gtg.imabubakar.xyz/',
-  }
+    title: "Tradational Landing Page",
+    description:
+      "Built with HTML, CSS & JavaScript only. Responsive design for all devices.",
+    image:
+      "https://res.cloudinary.com/dttah6xlw/image/upload/v1752300073/Screenshot_2025-07-12_113042_btvxdh.png",
+    link: "https://gtg.imabubakar.xyz/",
+  },
 ];
 
 const ProjectCard = ({ title, description, image, link, delay }) => (
@@ -47,7 +51,7 @@ const ProjectCard = ({ title, description, image, link, delay }) => (
 
 const FeatureCards = () => {
   return (
-    <main id='Projects'>
+    <main id="Projects">
       <motion.h1
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -55,7 +59,7 @@ const FeatureCards = () => {
         viewport={{ once: true }}
         className="flex items-center gap-3 text-3xl font-semibold mb-4 text-white"
       >
-        <FolderIcon className='text-yellow-500 w-10 h-10' />
+        <FolderIcon className="text-yellow-500 w-10 h-10" />
         Featured Projects
       </motion.h1>
 
