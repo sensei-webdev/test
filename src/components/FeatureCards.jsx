@@ -17,7 +17,7 @@ const projects = [
       "Built with HTML, CSS & JavaScript only. Responsive design for all devices.",
     image:
       "https://res.cloudinary.com/dttah6xlw/image/upload/v1752300073/Screenshot_2025-07-12_113042_btvxdh.png",
-    link: "https://gtg.imabubakar.xyz/",
+    link: "https://abu-bakar-hasan.github.io/gtg.org",
   },
 ];
 
